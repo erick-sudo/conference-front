@@ -42,8 +42,7 @@ function AuthProvider({ children }) {
 
   const [user, setUser] = useState(null);
 
-  const backendUrl = "http://ec2-18-208-140-121.compute-1.amazonaws.com:4000";
-  // const backendUrl = "https://conference-thawing-c5eafdce0b81.herokuapp.com";
+  const backendUrl = "https://conference-api-prc0.onrender.com";
 
   const isValidEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
